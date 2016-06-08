@@ -261,10 +261,11 @@
 
 #endif
 
+#define USE_PCA9685
+
 #undef TELEMETRY_FRSKY
 #undef TELEMETRY_HOTT
 #undef TELEMETRY_SMARTPORT
-
 
 // IO - assuming all IOs on 48pin package
 #define TARGET_IO_PORTA 0xffff
@@ -276,4 +277,3 @@
 
 #define TIMER_APB1_PERIPHERALS (RCC_APB1Periph_TIM2 | RCC_APB1Periph_TIM3 | RCC_APB1Periph_TIM4)
 #define TIMER_APB2_PERIPHERALS (RCC_APB2Periph_TIM1 | RCC_APB2Periph_GPIOA | RCC_APB2Periph_GPIOB)
-
