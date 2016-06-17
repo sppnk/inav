@@ -261,7 +261,7 @@
 
 #endif
 
-#define USE_PCA9685
+#define USE_PMW_SERVO_DRIVER
 
 #undef TELEMETRY_FRSKY
 #undef TELEMETRY_HOTT
