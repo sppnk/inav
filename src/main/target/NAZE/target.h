@@ -262,6 +262,7 @@
 #endif
 
 #define USE_PMW_SERVO_DRIVER
+#define PWM_DRIVER_PCA9685
 
 #undef TELEMETRY_FRSKY
 #undef TELEMETRY_HOTT
