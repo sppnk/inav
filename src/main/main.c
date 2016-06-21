@@ -51,6 +51,7 @@
 #include "drivers/flash_m25p16.h"
 #include "drivers/sonar_hcsr04.h"
 #include "drivers/gyro_sync.h"
+#include "io/pwmdriver_i2c.h"
 #include "drivers/io_pca9685.h"
 
 #include "rx/rx.h"
